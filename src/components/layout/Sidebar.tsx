@@ -3,6 +3,7 @@ import { useTracker } from '../../store/TrackerContext';
 
 const NAV_ITEMS = [
   { to: '/dashboard', icon: '\u{1F4CA}', label: 'Dashboard' },
+  { to: '/roadmap', icon: '\u{1F5FA}\uFE0F', label: 'Roadmap' },
   { to: '/week', icon: '\u{1F4C5}', label: 'Week View' },
   { to: '/standup', icon: '\u{1F4CB}', label: 'Standup' },
   { to: '/kanban', icon: '\u{1F5C2}\uFE0F', label: 'Kanban Board' },

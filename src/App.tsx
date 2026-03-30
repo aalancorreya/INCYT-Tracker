@@ -7,6 +7,7 @@ import { KanbanView } from './components/kanban/KanbanView';
 import { StandupView } from './components/standup/StandupView';
 import { AdminView } from './components/admin/AdminView';
 import { DailyUpdateView } from './components/updates/DailyUpdateView';
+import { RoadmapView } from './components/roadmap/RoadmapView';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
           <Route path="/" element={<AppShell />}>
             <Route index element={<Navigate to="/dashboard" replace />} />
             <Route path="dashboard" element={<DashboardView />} />
+            <Route path="roadmap" element={<RoadmapView />} />
             <Route path="week" element={<WeekView />} />
             <Route path="week/:weekId" element={<WeekView />} />
             <Route path="standup" element={<StandupView />} />

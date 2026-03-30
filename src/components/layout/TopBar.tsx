@@ -4,6 +4,7 @@ import { useTracker } from '../../store/TrackerContext';
 
 const ROUTE_TITLES: Record<string, string> = {
   '/': 'Dashboard',
+  '/roadmap': 'Roadmap',
   '/week': 'Week View',
   '/standup': 'Standup',
   '/kanban': 'Kanban Board',
