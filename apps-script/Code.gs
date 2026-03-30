@@ -28,7 +28,7 @@ var TAB_HEADERS = {
 // Fields that need special type handling on read
 var JSON_FIELDS     = ['owners', 'tags'];
 var BOOLEAN_FIELDS  = ['isDeviceOnly', 'isDeviceTask', 'completed'];
-var NUMBER_FIELDS   = ['number', 'estimatedHours', 'order', 'priority'];
+var NUMBER_FIELDS   = ['number', 'estimatedHours', 'order'];
 
 // =============================================================================
 // WEB APP ENTRY POINTS
